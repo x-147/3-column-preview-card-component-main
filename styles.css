@@ -69,6 +69,7 @@ body {
 
   flex-direction: column;
   align-items: start;
+  /* think about using flex here instead */
   margin-bottom: 50px;
 }
 
@@ -106,4 +107,26 @@ button {
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    width: 230px;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .car-container {
+    /* this won't be necessary with flex outside media queries */
+    margin-bottom: 25px;
+  }
+
+  .sedan-car {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .luxury-car {
+    border-radius: 0px 0px 10px 10px;
+  }
 }
