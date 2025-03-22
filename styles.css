@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 660px;
+  height: 360px;
+}
+
+.title {
+  font-family: 'Big Shoulders', sans-serif;
+}
+
+.sedan-car {
+}
+
+.suv-car {
+}
+
+.luxury-car {
+}
