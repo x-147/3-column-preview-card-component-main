@@ -6,6 +6,9 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
+  color: white;
+  font-size: 15px;
 }
 
 *,
@@ -17,17 +20,50 @@ body {
 .card {
   width: 660px;
   height: 360px;
+
+  display: flex;
+
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .title {
   font-family: 'Big Shoulders', sans-serif;
+  font-size: x-large;
+}
+
+.description {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: x-small;
+  font-weight: 400;
+  line-height: 1rem;
+  opacity: 0.6;
 }
 
 .sedan-car {
+  background-color: hsl(31, 77%, 52%);
+  flex: 1;
+  padding: 30px;
 }
 
 .suv-car {
+  background-color: hsl(184, 100%, 22%);
+  flex: 1;
+  padding: 30px;
 }
 
 .luxury-car {
+  background-color: hsl(179, 100%, 13%);
+  flex: 1;
+  padding: 30px;
+}
+
+.car-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.button {
+  border: none;
 }
